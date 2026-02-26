@@ -1,0 +1,26 @@
+# --- Google API / 認証関連 (最重要) ---
+# サービスアカウントの秘密鍵
+service-account.json
+# OAuth 2.0を使用した場合のトークンと秘密鍵
+token.json
+client_secret.json
+
+# --- プロジェクト固有の出力 ---
+# ダウンロード先のディレクトリ
+downloads/
+*.log
+
+# --- Python 標準の除外設定 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- OS / エディタ関連 ---
+.DS_Store
+.vscode/
+.idea/
